@@ -5,5 +5,5 @@ def pangram(string):
         if char.islower() and char not in str_set:
             str_set.append(char)
         print(str_set)
-    return len(str_set) == 26  # boolean will check to see if length is equal to total letters in alphabet
+    return len(str_set) == 26  # will check to see if length is equal to total letters in alphabet
 
